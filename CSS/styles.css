@@ -92,7 +92,7 @@ h3 {
 
 .topline {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   padding: 24px 0;
   flex-wrap: nowrap;
@@ -134,13 +134,16 @@ h3 {
   display: flex;
   gap: 40px;
   align-items: center;
+  justify-content: center;
 }
 
-.contact a {
+.contact .button {
   font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  width: 151px;
+  height: 24px;
 }
 
 /* NAVBAR BUTTONS --------------------------------------------------------- */
@@ -161,7 +164,7 @@ h3 {
 /* HERO --------------------------------------------------------- */
 
 .hero {
-margin: 0 auto;
+  margin: 0 auto;
   background-color: var(--dark);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
