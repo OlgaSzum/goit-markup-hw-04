@@ -161,6 +161,7 @@ h3 {
 /* HERO --------------------------------------------------------- */
 
 .hero {
+margin: 0 auto;
   background-color: var(--dark);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
